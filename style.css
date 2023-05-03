@@ -48,7 +48,7 @@ body {
 
 h1{
     color: #000000;
-    font-size: 4.5rem;
+    font-size: 3.5rem;
     line-height: 1.2;
     font-weight: 300;
     letter-spacing: -0.05em;
@@ -72,14 +72,19 @@ p {
     margin-block-end: 1em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
-    font-size: 1.25rem;
-    margin: 2rem 2rem 3em 2rem
+    font-size: 1rem;
+    margin: 1rem 2rem 1em 2rem
 }
-ul{
+
+.botao{
     list-style: none;
 }
 
-.secao-principal.imagem img{
+ul li {
+    margin: 1rem 2rem 1em 2rem
+}
+
+.secao-principal.imagem-principal img{
     object-position: right;
     object-fit: cover;
     display: block;
@@ -91,7 +96,7 @@ ul{
     
 }
 
-.imagem{
+.imagem-principal{
     border: 0;
     display: inline-block;
     position: relative;
@@ -104,7 +109,11 @@ img{
 }
 
 
-.texto-centro{
+.texto-esquerda{
+    text-align: left;
+}
+
+.imagem{
     text-align: center;
 }
 
@@ -119,7 +128,22 @@ h2{
     margin-block-end: 0.83em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
+    text-align: center;
     
+}
+
+h3{
+    color:#000000;
+    font-size: 1.75rem;
+    font-weight: 300;
+    line-height: 1.375;
+    letter-spacing: -0.05em;
+    margin: 0 0 1rem 0;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    text-align: center;
 }
 
 a{
