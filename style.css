@@ -1,5 +1,5 @@
 body {
-    font-family: "fira code", helvetica, sans-serif;
+    font-family: "comfortaa", helvetica, sans-serif;
     font-size: 1rem;
     font-weight: 300;
     line-height: 1.65;
@@ -17,10 +17,8 @@ body {
     box-shadow: none;
     margin: 0;
     padding: 0;
-    border: 0;
-    
+    border: 0;  
 }
-
 
 .secao-principal{
     min-width: 100vh;
@@ -30,10 +28,7 @@ body {
     justify-content: flex-end;
     position: relative;
     text-align: left;
-    overflow-x: hidden;
-    
-    
-   
+    overflow-x: hidden;   
 }
 
 .secao-principal.conteudo-principal{
@@ -62,7 +57,7 @@ h1{
     margin-block-end: 1em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     margin: 2rem 2rem 3em 2rem
 }
 
@@ -92,8 +87,7 @@ ul li {
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%;
-    
+    height: 100%;  
 }
 
 .imagem-principal{
@@ -104,10 +98,8 @@ ul li {
 
 img{
     height: 550px;
-    border: solid 5px;
-    
+    border: solid 5px;   
 }
-
 
 .texto-esquerda{
     text-align: left;
@@ -128,8 +120,7 @@ h2{
     margin-block-end: 0.83em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
-    text-align: center;
-    
+    text-align: center;  
 }
 
 h3{
@@ -190,6 +181,7 @@ h3{
 .conteudo-quiz .botao{
     text-align: center;
 }
+
 .footer {
     width: 100%;
     display: flex;
@@ -224,12 +216,12 @@ h3{
     width: 24px;
     border: none;
     margin: 0 8px;
-    animation: pulsate 1s infinite alternate;
 }
+
 .footer-texto{
     font-size: 14px;
     font-weight: 700;
-    color:#47d3e5;
+    color:#222;
     display: flex;
     align-items: center;
     border: none;
