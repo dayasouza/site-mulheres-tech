@@ -97,14 +97,14 @@ ul li {
 }
 
 .imagem-principal{
-    border: 0;
+    padding-top: 2rem;
     display: inline-block;
     position: relative;
 }
 
 img{
-    padding-top: 2rem;
     height: 550px;
+    border: solid 5px;
     
 }
 
@@ -190,6 +190,53 @@ h3{
 .conteudo-quiz .botao{
     text-align: center;
 }
+.footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.redes {
+    text-align: center;
+    padding: 4px;  
+}
+
+.redes__link {
+    border: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.redes__link:hover {
+    opacity: .6;
+}
+
+.icone {
+    text-align: center;
+    border: none;
+    padding: 4px;
+    width: 24px;
+    margin: 0 4px;
+    margin-top: 1px;
+}
+
+.icone--texto {
+    width: 24px;
+    border: none;
+    margin: 0 8px;
+    animation: pulsate 1s infinite alternate;
+}
+.footer-texto{
+    font-size: 14px;
+    font-weight: 700;
+    color:#47d3e5;
+    display: flex;
+    align-items: center;
+    border: none;
+}
+
+
+
 
 
 
