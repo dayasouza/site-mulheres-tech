@@ -263,7 +263,11 @@ function fimDoJogo() {
     setTimeout(function() {
         pontos = 0 // zerar placar
         //location.reload();
-        instrucoes.classList.remove('placar')        
+        instrucoes.classList.remove('placar')
+        // REINICIAR O JOGO
+        articleQuestoes.style.display = 'block'
+        proximaQuestao(1)
+        instrucoes.textContent = 'Leia a questão e clique na resposta correta'
     }, 8000)
 
 }

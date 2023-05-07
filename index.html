@@ -34,7 +34,7 @@
                     Grace Hopper foi uma das primeiras mulheres a trabalhar no campo da tecnologia e suas contribuições inovadoras abriram caminho para muitos avanços futuros no campo. <br>
                 </p>
                
-                <ul class="botao">
+                <ul class="botao-principal">
                     <li><a class="link-botao" href="#first"> Saiba mais</a></li>
                     
                 </ul>
@@ -220,12 +220,38 @@
                     Você já conhece a história incrível de Grace Hopper, uma das maiores pioneiras da tecnologia que revolucionou o mundo da computação e da programação? Agora é hora de testar seus conhecimentos sobre sua vida e suas contribuições em um quiz especial que preparamos para você! Descubra curiosidades e fatos interessantes sobre a vida de Grace Hopper e ajude a divulgar o legado dessa mulher incrível.<br>
                     Clique no botão abaixo e comece agora mesmo!
                 </p>
-                <ul class="botao-quiz">
-                    <a class="link-botao" href="quiz.html">Iniciar Quiz</a>
-                </ul>
-                <div class="imagem">
-                <img src="image/grace programando.jpg" alt="imagem de grace hopper sentada programando">
-                </div>
+                <section class="tela-principal">
+
+                    <section class='conteudos'>
+            
+                        
+            
+                        <article class='questoes'>
+                            <article class='centro' id='instrucoes'>
+                                Leia a questão e clique na resposta correta
+                            </article>
+                            <header class='questao'>
+                                <span id='numQuestao'></span>
+                                <h2 id='pergunta'></h2>
+                            </header>
+                            
+                            <div class='corpo'>
+                                <ol type='A' id='alternativas'>
+                                    <li id='a' value='1A' class='respostas' onClick='verificarSeAcertou(this, this)'></li>
+                                    <li id='b' value='1B' class='respostas' onClick='verificarSeAcertou(this, this)'></li>
+                                    <li id='c' value='1C' class='respostas' onClick='verificarSeAcertou(this, this)'></li>
+                                    <li id='d' value='1D' class='respostas' onClick='verificarSeAcertou(this, this)'></li>
+                                </ol>
+                            </div>
+                        </article>
+            
+                        <article id='aviso' class='centro'>
+                            <input type="range" value='1' min='1' max='10' step='1'
+                            name="progresso" id="progresso" disabled
+                            /> <br>
+                            <span id='numero'></span> de <span id='total'></span>
+                        </article>
+                    </section> 
             </div>
         </section>
 
@@ -271,8 +297,11 @@
             </span>
         </footer>
     </div>
-
-    <!--Scripts-->
+    <audio preload src="audio/positive.mp3" id='somAcerto'></audio>
+    <audio preload src="audio/negative.mp3" id='somErro'></audio>
+    <audio preload src="audio/aplausos.mp3" id='somAplausos'></audio>
+<!-- JS externo -->
+<script src="app.js"></script>
     
 </body>
 </html>
